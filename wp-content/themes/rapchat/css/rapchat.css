@@ -1,0 +1,74 @@
+/* CUSTOM STYLES FOR EDMAP WEBSITE 
+Author: Cremedia Productions =>Brandon Logan
+Website: www.cremediaproductions.com
+*/
+
+
+@font-face {
+    font-family: 'petitalight';
+    src: url('fonts/petitalight.eot');
+    src: url('fonts/petitalight.eot?#iefix') format('embedded-opentype'),
+         url('fonts/petitalight.woff') format('woff'),
+         url('fonts/petitalight.ttf') format('truetype'),
+         url('fonts/petitalight.svg#webfontbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*----------GLOBALS----------*/
+h1, h2, h3, p{font-family:'Lato';}
+.logo h1{font-family:'Lato';margin-top:-10px;}
+.logo h2{font-family:petitalight;font-size:24px;margin-top:-20px;}
+.form form p{font-family:petitalight;}
+p.desc{font-family:petitalight !important;}
+p.copyright{text-align:center;}
+div.wpcf7-mail-sent-ok{margin-top:-30px;border-color:red;}
+
+#main-container{display:inline-block;background-size:100%;-webkit-background-size:100%;
+  min-height: 90%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#logo{display:block;margin:24px;}
+#logo img{width:10%;}
+
+#close-out{display:block;background:#000;padding: 20px;border-radius: 30px;color:#fff;font-weight:bolder;text-align:center;width: 40px;font-family: arial;font-size: 20px;height: 40px;padding-left: 14px;padding-top: 5px;position: absolute;right: -20px;top: -20px;transition:font-size .5s, padding .5s;-webkit-transition:font-size .5s, padding .5s;}
+#close-out:hover{font-size: 28px;padding-left: 11px;padding-top: 0px;transition:font-size .5s, padding .5s;-webkit-transition:font-size .5s, padding .5s;}
+
+#mask{height:100%;width:100%;overflow:hidden;}
+
+#content-frame{width:75%;position:absolute;background-image:url('../images/content.png');background-repeat:repeat;margin-left:15%;top:10%;padding:30px;height:85%;display:none;}
+#content-frame.initial{width:0%;margin-left:50%;height:0%;overflow:hidden;}
+
+#content-frame h1{font-family: 'Lato', Arial, sans-serif;color:#000;position: fixed;top: 30px;}
+#content-frame h2{font-family: 'Lato',Arial, sans-serif;font-weight:bold;color:#000;}
+#content-frame p{font-family: 'Lato',Arial, sans-serif;color:#000;}
+
+#content{overflow:scroll;height:100%;margin-top:30px !important;}
+
+ul.meta li{display: inline-block;margin-right:30px;}
+ul.meta li a{color:#1c6a97;}
+
+footer#footer{position:absolute;top:100%;height: 140px;width:100%;
+background-color: #212121;
+background-image: -moz-linear-gradient(bottom, #010101 0%, #494949 100%);
+background-image: -o-linear-gradient(bottom, #010101 0%, #494949 100%);
+background-image: -webkit-linear-gradient(bottom, #010101 0%, #494949 100%);
+background-image: linear-gradient(bottom, #010101 0%, #494949 100%);
+padding-left:30px;padding-right:30px;}
+
+ul#left-links{list-style:none;float:left;}
+ul#left-links li{display:inline-block;margin-right:20px;}
+ul li a{color:#fff;font-family: 'Lato',Arial, sans-serif;}
+ul li a:hover, ul li.active a{color:#1c6a97;}
+
+footer span{float:right;color:#fff;font-family: 'Lato',Arial, sans-serif;position:relative;top:20px;}
+
+
+#turntable{display:block;width:100%;height:470px;background-image:url('../images/turntable.png');background-size:100%;background-repeat:no-repeat;position:absolute;top:100%;}
